@@ -145,6 +145,8 @@ function Tile( element ){
 		tile.style.transform = idleCss;
 
 		document.removeEventListener('mouseup',   MouseUp,   false);
+		element.click();
+
 	};
 
 	// Element position finding for non webkit browsers.
